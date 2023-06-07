@@ -23,3 +23,10 @@ PIB |>
 ```
 
 
+```{r}
+library(ggplot2)
+
+ggplot(PIB, aes(y = pais, x = pib_per_capita)) +
+  geom_bar(stat = "identity") 
+```
+
