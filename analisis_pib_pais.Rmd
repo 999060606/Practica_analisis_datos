@@ -9,7 +9,7 @@ library(datos)
 paises <- datos::paises
 View(paises)
 ```
-Obtener la tabla:
+Obtener la tabla datos:
 
 ```{r}
 datos_americas2007 <- filter(paises,continente == "Américas" & anio == 2007)
