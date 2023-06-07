@@ -1,0 +1,25 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(readxl)
+library(dplyr)
+library(datos)
+```
+```{r}
+paises <- datos::paises
+View(paises)
+```
+Obtener la tabla datos:
+
+```{r}
+datos_americas2007 <- filter(paises,continente == "Américas" & anio == 2007)
+```
+```{r}
+PIB <- select(datos_americas2007, pais, pib_per_capita) 
+```
+```{r}
+PIB |> 
+  arrange(desc(pib_per_capita))
+```
+
+
