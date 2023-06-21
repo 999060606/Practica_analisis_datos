@@ -1,6 +1,6 @@
 ---
 title: "sesion5_preparacion_limpieza_continuacion"
-author: "Kimberley Isabel Orozco Cornejo"
+author: "Rebeca Rodriguez Solano"
 date: "2023-06-20"
 output: html_document
 editor_options: 
